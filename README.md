@@ -1,5 +1,7 @@
 # ChatGPT-clone (Production Ready)
-Scalable Secure AI SaaS Chat Bot using MERN Stack framework
+A Modern AI Project which will use OpenAI API to create an AI Real-Time Chatbot similar to ChatGPT.
+The application stores user's chats in a database to keep track of conversations, but a user can delete them anytime.
+The UI is capable of showing code blocks if requested by the User.
 
 ### Features 
 1. Question Answer: OpenAI Conversational model GPT3.5 Turbo and 4.
