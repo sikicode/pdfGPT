@@ -22,6 +22,7 @@ export const userSignUp = async (
     next: NextFunction,
 ) => {
     try {
+        console.log("started sign up");
         const { name, email, password } = req.body;
         const hashedPassword = await hash(password, 10);
         const user = new User({ name, email, password: hashedPassword });
